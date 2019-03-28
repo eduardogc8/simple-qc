@@ -1,0 +1,501 @@
+,class,question,sub_class
+0,NUM,How far is it from Denver to Aspen ?,dist
+1,LOC,"What county is Modesto , California in ?",city
+2,HUM,Who was Galileo ?,desc
+3,DESC,What is an atom ?,def
+4,NUM,When did Hawaii become a state ?,date
+5,NUM,How tall is the Sears Building ?,dist
+6,HUM,George Bush purchased a small interest in which baseball team ?,gr
+7,ENTY,What is Australia 's national flower ?,plant
+8,DESC,Why does the moon turn orange ?,reason
+9,DESC,What is autism ?,def
+10,LOC,What city had a world fair in 1900 ?,city
+11,HUM,What person 's head is on a dime ?,ind
+12,NUM,What is the average weight of a Yellow Labrador ?,weight
+13,HUM,Who was the first man to fly across the Pacific Ocean ?,ind
+14,NUM,When did Idaho become a state ?,date
+15,NUM,What is the life expectancy for crickets ?,other
+16,ENTY,What metal has the highest melting point ?,substance
+17,HUM,Who developed the vaccination against polio ?,ind
+18,DESC,What is epilepsy ?,def
+19,NUM,What year did the Titanic sink ?,date
+20,HUM,Who was the first American to walk in space ?,ind
+21,DESC,What is a biosphere ?,def
+22,LOC,What river in the US is known as the Big Muddy ?,other
+23,DESC,What is bipolar disorder ?,def
+24,DESC,What is cholesterol ?,def
+25,HUM,Who developed the Macintosh computer ?,ind
+26,DESC,What is caffeine ?,def
+27,LOC,What imaginary line is halfway between the North and South Poles ?,other
+28,LOC,Where is John Wayne airport ?,other
+29,LOC,What hemisphere is the Philippines in ?,other
+30,NUM,What is the average speed of the horses at the Kentucky Derby ?,speed
+31,LOC,Where are the Rocky Mountains ?,mount
+32,DESC,What are invertebrates ?,def
+33,NUM,What is the temperature at the center of the earth ?,temp
+34,NUM,When did John F. Kennedy get elected as President ?,date
+35,NUM,How old was Elvis Presley when he died ?,period
+36,LOC,Where is the Orinoco River ?,other
+37,NUM,How far is the service line from the net in tennis ?,dist
+38,NUM,How much fiber should you have per day ?,count
+39,NUM,How many Great Lakes are there ?,count
+40,ENTY,Material called linen is made from what plant ?,plant
+41,DESC,What is Teflon ?,def
+42,DESC,What is amitriptyline ?,def
+43,DESC,What is a shaman ?,def
+44,ENTY,What is the proper name for a female walrus ?,animal
+45,ENTY,What is a group of turkeys called ?,animal
+46,NUM,How long did Rip Van Winkle sleep ?,period
+47,DESC,What are triglycerides ?,def
+48,NUM,How many liters in a gallon ?,count
+49,HUM,What is the name of the chocolate company in San Francisco ?,gr
+50,DESC,What are amphibians ?,def
+51,HUM,Who discovered x-rays ?,ind
+52,HUM,Which comedian 's signature line is `` Can we talk '' ?,ind
+53,DESC,What is fibromyalgia ?,def
+54,DESC,What is done with worn or outdated flags ?,desc
+55,DESC,What does cc in engines mean ?,def
+56,NUM,When did Elvis Presley die ?,date
+57,LOC,What is the capital of Yugoslavia ?,city
+58,LOC,Where is Milan ?,city
+59,NUM,What is the speed hummingbirds fly ?,speed
+60,LOC,What is the oldest city in the United States ?,city
+61,HUM,What was W.C. Fields ' real name ?,ind
+62,LOC,"What river flows between Fargo , North Dakota and Moorhead , Minnesota ?",other
+63,ENTY,What do bats eat ?,food
+64,LOC,What state did the Battle of Bighorn take place in ?,state
+65,HUM,Who was Abraham Lincoln ?,desc
+66,ENTY,What do you call a newborn kangaroo ?,termeq
+67,DESC,What are spider veins ?,def
+68,NUM,What day and month did John Lennon die ?,date
+69,LOC,What strait separates North America from Asia ?,other
+70,NUM,What is the population of Seattle ?,other
+71,NUM,How much was a ticket for the Titanic ?,money
+72,LOC,What is the largest city in the world ?,city
+73,HUM,What American composer wrote the music for `` West Side Story '' ?,ind
+74,LOC,Where is the Mall of the America ?,other
+75,DESC,What is the pH scale ?,def
+76,ENTY,What type of currency is used in Australia ?,currency
+77,NUM,"How tall is the Gateway Arch in St. Louis , MO ?",dist
+78,NUM,How much does the human adult female brain weigh ?,weight
+79,HUM,Who was the first governor of Alaska ?,ind
+80,DESC,What is a prism ?,def
+81,NUM,When was the first liver transplant ?,date
+82,HUM,Who was elected president of South Africa in 1994 ?,ind
+83,NUM,What is the population of China ?,other
+84,NUM,When was Rosa Parks born ?,date
+85,DESC,Why is a ladybug helpful ?,reason
+86,DESC,What is amoxicillin ?,def
+87,HUM,Who was the first female United States Representative ?,ind
+88,DESC,What are xerophytes ?,def
+89,LOC,What country did Ponce de Leon come from ?,country
+90,ENTY,The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?,event
+91,DESC,What is desktop publishing ?,def
+92,NUM,What is the temperature of the sun 's surface ?,temp
+93,NUM,What year did Canada join the United Nations ?,date
+94,HUM,What is the oldest university in the US ?,gr
+95,LOC,Where is Prince Edward Island ?,other
+96,NUM,"Mercury , what year was it discovered ?",date
+97,DESC,What is cryogenics ?,def
+98,DESC,What are coral reefs ?,def
+99,ENTY,What is the longest major league baseball-winning streak ?,other
+100,DESC,What is neurology ?,def
+101,HUM,Who invented the calculator ?,ind
+102,DESC,How do you measure earthquakes ?,manner
+103,HUM,Who is Duke Ellington ?,desc
+104,LOC,"What county is Phoenix , AZ in ?",city
+105,DESC,What is a micron ?,def
+106,NUM,"The sun 's core , what is the temperature ?",temp
+107,ENTY,What is the Ohio state bird ?,animal
+108,NUM,When were William Shakespeare 's twins born ?,date
+109,LOC,What is the highest dam in the U.S. ?,other
+110,ENTY,What color is a poison arrow frog ?,color
+111,DESC,What is acupuncture ?,def
+112,NUM,What is the length of the coastline of the state of Alaska ?,dist
+113,HUM,What is the name of Neil Armstrong 's wife ?,ind
+114,ENTY,What is Hawaii 's state flower ?,plant
+115,HUM,Who won Ms. American in 1989 ?,ind
+116,NUM,When did the Hindenberg crash ?,date
+117,ENTY,What mineral helps prevent osteoporosis ?,substance
+118,NUM,What was the last year that the Chicago Cubs won the World Series ?,date
+119,LOC,Where is Perth ?,other
+120,NUM,What year did WWII begin ?,date
+121,NUM,What is the diameter of a golf ball ?,dist
+122,DESC,What is an eclipse ?,def
+123,HUM,Who discovered America ?,ind
+124,NUM,What is the earth 's diameter ?,dist
+125,HUM,Which president was unmarried ?,ind
+126,NUM,How wide is the Milky Way galaxy ?,dist
+127,NUM,During which season do most thunderstorms occur ?,date
+128,DESC,What is Wimbledon ?,def
+129,NUM,What is the gestation period for a cat ?,period
+130,NUM,How far is a nautical mile ?,dist
+131,HUM,Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?,ind
+132,DESC,What does target heart rate mean ?,def
+133,ENTY,What was the first satellite to go into space ?,product
+134,DESC,What is foreclosure ?,def
+135,ENTY,What is the major fault line near Kentucky ?,other
+136,LOC,Where is the Holland Tunnel ?,other
+137,HUM,Who wrote the hymn `` Amazing Grace '' ?,ind
+138,HUM,What position did Willie Davis play in baseball ?,title
+139,DESC,What are platelets ?,def
+140,DESC,What is severance pay ?,def
+141,ENTY,What is the name of Roy Roger 's dog ?,animal
+142,LOC,Where are the National Archives ?,other
+143,ENTY,What is a baby turkey called ?,animal
+144,DESC,What is poliomyelitis ?,def
+145,ENTY,What is the longest bone in the human body ?,body
+146,HUM,Who is a German philosopher ?,ind
+147,ENTY,What were Christopher Columbus ' three ships ?,veh
+148,DESC,What does Phi Beta Kappa mean ?,def
+149,DESC,What is nicotine ?,def
+150,ENTY,What is another name for vitamin B1 ?,termeq
+151,HUM,Who discovered radium ?,ind
+152,DESC,What are sunspots ?,def
+153,NUM,When was Algeria colonized ?,date
+154,HUM,What baseball team was the first to make numbers part of their uniform ?,gr
+155,LOC,What continent is Egypt on ?,other
+156,LOC,What is the capital of Mongolia ?,city
+157,DESC,What is nanotechnology ?,def
+158,LOC,In the late 1700 's British convicts were used to populate which colony ?,other
+159,LOC,What state is the geographic center of the lower 48 states ?,state
+160,DESC,What is an obtuse angle ?,def
+161,DESC,What are polymers ?,def
+162,NUM,When is hurricane season in the Caribbean ?,date
+163,LOC,Where is the volcano Mauna Loa ?,other
+164,ENTY,What is another astronomic term for the Northern Lights ?,termeq
+165,LOC,What peninsula is Spain part of ?,other
+166,NUM,When was Lyndon B. Johnson born ?,date
+167,DESC,What is acetaminophen ?,def
+168,LOC,What state has the least amount of rain per year ?,state
+169,HUM,Who founded American Red Cross ?,ind
+170,NUM,What year did the Milwaukee Braves become the Atlanta Braves ?,date
+171,NUM,How fast is alcohol absorbed ?,speed
+172,NUM,When is the summer solstice ?,date
+173,DESC,What is supernova ?,def
+174,LOC,Where is the Shawnee National Forest ?,other
+175,LOC,What U.S. state 's motto is `` Live free or Die '' ?,state
+176,LOC,Where is the Lourve ?,other
+177,NUM,When was the first stamp issued ?,date
+178,ENTY,What primary colors do you mix to make orange ?,color
+179,NUM,How far is Pluto from the sun ?,dist
+180,LOC,What body of water are the Canary Islands in ?,other
+181,DESC,What is neuropathy ?,def
+182,LOC,Where is the Euphrates River ?,other
+183,DESC,What is cryptography ?,def
+184,ENTY,What is natural gas composed of ?,substance
+185,HUM,Who is the Prime Minister of Canada ?,ind
+186,HUM,What French ruler was defeated at the battle of Waterloo ?,ind
+187,DESC,What is leukemia ?,def
+188,LOC,Where did Howard Hughes die ?,other
+189,ENTY,What is the birthstone for June ?,substance
+190,ENTY,What is the sales tax in Minnesota ?,other
+191,NUM,What is the distance in miles from the earth to the sun ?,dist
+192,NUM,What is the average life span for a chicken ?,period
+193,NUM,When was the first Wal-Mart store opened ?,date
+194,DESC,What is relative humidity ?,def
+195,LOC,What city has the zip code of 35824 ?,city
+196,ENTY,What currency is used in Algeria ?,currency
+197,HUM,Who invented the hula hoop ?,ind
+198,ENTY,What was the most popular toy in 1957 ?,product
+199,ENTY,What is pastrami made of ?,substance
+200,ENTY,What is the name of the satellite that the Soviet Union sent into space in 1957 ?,product
+201,LOC,What city 's newspaper is called `` The Enquirer '' ?,city
+202,HUM,Who invented the slinky ?,ind
+203,ENTY,What are the animals that don 't have backbones called ?,animal
+204,NUM,What is the melting point of copper ?,other
+205,LOC,Where is the volcano Olympus Mons located ?,other
+206,HUM,Who was the 23rd president of the United States ?,ind
+207,NUM,What is the average body temperature ?,temp
+208,DESC,What does a defibrillator do ?,desc
+209,DESC,What is the effect of acid rain ?,desc
+210,NUM,What year did the United States abolish the draft ?,date
+211,NUM,How fast is the speed of light ?,speed
+212,LOC,What province is Montreal in ?,state
+213,LOC,What New York City structure is also known as the Twin Towers ?,other
+214,DESC,What is fungus ?,def
+215,ENTY,What is the most frequently spoken language in the Netherlands ?,lang
+216,DESC,What is sodium chloride ?,def
+217,ENTY,What are the spots on dominoes called ?,termeq
+218,NUM,How many pounds in a ton ?,count
+219,DESC,What is influenza ?,def
+220,DESC,What is ozone depletion ?,def
+221,NUM,What year was the Mona Lisa painted ?,date
+222,DESC,What does `` Sitting Shiva '' mean ?,def
+223,ENTY,"What is the electrical output in Madrid , Spain ?",other
+224,LOC,Which mountain range in North America stretches from Maine to Georgia ?,mount
+225,ENTY,What is plastic made of ?,substance
+226,NUM,What is the population of Nigeria ?,other
+227,DESC,What does your spleen do ?,desc
+228,LOC,Where is the Grand Canyon ?,other
+229,HUM,Who invented the telephone ?,ind
+230,NUM,What year did the U.S. buy Alaska ?,date
+231,HUM,What is the name of the leader of Ireland ?,ind
+232,DESC,What is phenylalanine ?,def
+233,NUM,How many gallons of water are there in a cubic foot ?,count
+234,ENTY,What are the two houses of the Legislative branch ?,other
+235,DESC,What is sonar ?,def
+236,LOC,"In Poland , where do most people live ?",other
+237,DESC,What is phosphorus ?,def
+238,LOC,What is the location of the Sea of Tranquility ?,other
+239,NUM,How fast is sound ?,speed
+240,LOC,What French province is cognac produced in ?,state
+241,DESC,What is Valentine 's Day ?,def
+242,DESC,What causes gray hair ?,reason
+243,DESC,What is hypertension ?,def
+244,DESC,What is bandwidth ?,def
+245,LOC,What is the longest suspension bridge in the U.S. ?,other
+246,DESC,What is a parasite ?,def
+247,DESC,What is home equity ?,def
+248,DESC,What do meteorologists do ?,desc
+249,ENTY,What is the criterion for being legally blind ?,other
+250,HUM,Who is the tallest man in the world ?,ind
+251,LOC,What are the twin cities ?,city
+252,ENTY,What did Edward Binney and Howard Smith invent in 1903 ?,other
+253,ENTY,What is the statue of liberty made of ?,substance
+254,DESC,What is pilates ?,def
+255,LOC,What planet is known as the `` red '' planet ?,other
+256,NUM,What is the depth of the Nile river ?,dist
+257,ENTY,What is the colorful Korean traditional dress called ?,termeq
+258,DESC,What is Mardi Gras ?,def
+259,NUM,Mexican pesos are worth what in U.S. dollars ?,money
+260,HUM,Who was the first African American to play for the Brooklyn Dodgers ?,ind
+261,HUM,Who was the first Prime Minister of Canada ?,ind
+262,NUM,How many Admirals are there in the U.S. Navy ?,count
+263,ENTY,What instrument did Glenn Miller play ?,instru
+264,NUM,How old was Joan of Arc when she died ?,period
+265,DESC,What does the word fortnight mean ?,def
+266,DESC,What is dianetics ?,def
+267,LOC,What is the capital of Ethiopia ?,city
+268,NUM,For how long is an elephant pregnant ?,period
+269,DESC,How did Janice Joplin die ?,manner
+270,ENTY,What is the primary language in Iceland ?,lang
+271,DESC,What is the difference between AM radio stations and FM radio stations ?,desc
+272,DESC,What is osteoporosis ?,def
+273,HUM,Who was the first woman governor in the U.S. ?,ind
+274,DESC,What is peyote ?,def
+275,DESC,What is the esophagus used for ?,reason
+276,DESC,What is viscosity ?,def
+277,NUM,What year did Oklahoma become a state ?,date
+278,ABBR,What is the abbreviation for Texas ?,abb
+279,ENTY,What is a mirror made out of ?,substance
+280,LOC,Where on the body is a mortarboard worn ?,other
+281,HUM,What was J.F.K. 's wife 's name ?,ind
+282,ABBR,What does I.V. stand for ?,exp
+283,DESC,What is the chunnel ?,def
+284,LOC,Where is Hitler buried ?,other
+285,DESC,What are antacids ?,def
+286,DESC,What is pulmonary fibrosis ?,def
+287,DESC,What are Quaaludes ?,def
+288,DESC,What is naproxen ?,def
+289,DESC,What is strep throat ?,def
+290,LOC,What is the largest city in the U.S. ?,city
+291,ENTY,What is foot and mouth disease ?,dismed
+292,NUM,What is the life expectancy of a dollar bill ?,other
+293,ENTY,What do you call a professional map drawer ?,termeq
+294,DESC,What are Aborigines ?,def
+295,DESC,What is hybridization ?,def
+296,ENTY,What color is indigo ?,color
+297,NUM,How old do you have to be in order to rent a car in Italy ?,period
+298,ENTY,What does a barometer measure ?,other
+299,ENTY,What color is a giraffe 's tongue ?,color
+300,ABBR,What does USPS stand for ?,exp
+301,NUM,What year did the NFL go on strike ?,date
+302,DESC,What is solar wind ?,def
+303,NUM,What date did Neil Armstrong land on the moon ?,date
+304,NUM,When was Hiroshima bombed ?,date
+305,LOC,Where is the Savannah River ?,other
+306,HUM,Who was the first woman killed in the Vietnam War ?,ind
+307,LOC,What planet has the strongest magnetic field of all the planets ?,other
+308,HUM,Who is the governor of Alaska ?,ind
+309,NUM,What year did Mussolini seize power in Italy ?,date
+310,LOC,What is the capital of Persia ?,city
+311,LOC,Where is the Eiffel Tower ?,other
+312,NUM,How many hearts does an octopus have ?,count
+313,DESC,What is pneumonia ?,def
+314,LOC,What is the deepest lake in the US ?,other
+315,DESC,What is a fuel cell ?,def
+316,HUM,Who was the first U.S. president to appear on TV ?,ind
+317,LOC,Where is the Little League Museum ?,other
+318,ENTY,What are the two types of twins ?,other
+319,LOC,What is the brightest star ?,other
+320,DESC,What is diabetes ?,def
+321,NUM,When was President Kennedy shot ?,date
+322,ABBR,What is TMJ ?,exp
+323,ENTY,What color is yak milk ?,color
+324,NUM,What date was Dwight D. Eisenhower born ?,date
+325,ABBR,What does the technical term ISDN mean ?,exp
+326,DESC,Why is the sun yellow ?,reason
+327,NUM,What is the conversion rate between dollars and pounds ?,money
+328,NUM,When was Abraham Lincoln born ?,date
+329,DESC,What is the Milky Way ?,def
+330,DESC,What is mold ?,def
+331,NUM,What year was Mozart born ?,date
+332,ENTY,What is a group of frogs called ?,animal
+333,ENTY,What is the name of William Penn 's ship ?,veh
+334,NUM,What is the melting point of gold ?,other
+335,LOC,What is the street address of the White House ?,other
+336,DESC,What is semolina ?,def
+337,ENTY,What fruit is Melba sauce made from ?,food
+338,DESC,What is Ursa Major ?,def
+339,NUM,What is the percentage of water content in the human body ?,perc
+340,NUM,How much does water weigh ?,weight
+341,ENTY,What was President Lyndon Johnson 's reform program called ?,event
+342,NUM,"What is the murder rate in Windsor , Ontario ?",perc
+343,HUM,Who is the only president to serve 2 non-consecutive terms ?,ind
+344,NUM,What is the population of Australia ?,other
+345,HUM,Who painted the ceiling of the Sistine Chapel ?,ind
+346,ENTY,Name a stimulant .,dismed
+347,DESC,What is the effect of volcanoes on the climate ?,desc
+348,NUM,What year did the Andy Griffith show begin ?,date
+349,DESC,What is acid rain ?,def
+350,NUM,What is the date of Mexico 's independence ?,date
+351,LOC,What is the location of Lake Champlain ?,other
+352,ENTY,What is the Illinois state flower ?,plant
+353,ENTY,What is Maryland 's state bird ?,animal
+354,DESC,What is quicksilver ?,def
+355,HUM,Who wrote `` The Divine Comedy '' ?,ind
+356,NUM,What is the speed of light ?,speed
+357,NUM,What is the width of a football field ?,dist
+358,DESC,Why in tennis are zero points called love ?,reason
+359,ENTY,What kind of dog was Toto in the Wizard of Oz ?,animal
+360,DESC,What is a thyroid ?,def
+361,DESC,What does ciao mean ?,def
+362,ENTY,What is the only artery that carries blue blood from the heart to the lungs ?,body
+363,NUM,How often does Old Faithful erupt at Yellowstone National Park ?,other
+364,DESC,What is acetic acid ?,def
+365,NUM,"What is the elevation of St. Louis , MO ?",dist
+366,ENTY,What color does litmus paper turn when it comes into contact with a strong acid ?,color
+367,ENTY,What are the colors of the German flag ?,color
+368,DESC,What is the Moulin Rouge ?,def
+369,LOC,What soviet seaport is on the Black Sea ?,other
+370,NUM,What is the atomic weight of silver ?,weight
+371,ENTY,What currency do they use in Brazil ?,currency
+372,DESC,What are pathogens ?,def
+373,DESC,What is mad cow disease ?,def
+374,ENTY,Name a food high in zinc .,food
+375,NUM,When did North Carolina enter the union ?,date
+376,LOC,Where do apple snails live ?,other
+377,DESC,What are ethics ?,def
+378,ABBR,What does CPR stand for ?,exp
+379,DESC,What is an annuity ?,def
+380,HUM,Who killed John F. Kennedy ?,ind
+381,HUM,Who was the first vice president of the U.S. ?,ind
+382,ENTY,What birthstone is turquoise ?,substance
+383,HUM,Who was the first US President to ride in an automobile to his inauguration ?,ind
+384,NUM,How old was the youngest president of the United States ?,period
+385,NUM,When was Ulysses S. Grant born ?,date
+386,DESC,What is Muscular Dystrophy ?,def
+387,HUM,Who lived in the Neuschwanstein castle ?,ind
+388,DESC,What is propylene glycol ?,def
+389,DESC,What is a panic disorder ?,def
+390,HUM,Who invented the instant Polaroid camera ?,ind
+391,DESC,What is a carcinogen ?,def
+392,ENTY,What is a baby lion called ?,animal
+393,NUM,What is the world 's population ?,other
+394,DESC,What is nepotism ?,def
+395,DESC,What is die-casting ?,def
+396,DESC,What is myopia ?,def
+397,NUM,What is the sales tax rate in New York ?,other
+398,NUM,Developing nations comprise what percentage of the world 's population ?,perc
+399,LOC,What is the fourth highest mountain in the world ?,mount
+400,HUM,What is Shakespeare 's nickname ?,ind
+401,ENTY,What is the heaviest naturally occurring element ?,substance
+402,NUM,When is Father 's Day ?,date
+403,ABBR,What does the acronym NASA stand for ?,exp
+404,NUM,How long is the Columbia River in miles ?,dist
+405,LOC,What city 's newspaper is called `` The Star '' ?,city
+406,DESC,What is carbon dioxide ?,def
+407,LOC,Where is the Mason/Dixon line ?,other
+408,NUM,When was the Boston tea party ?,date
+409,DESC,What is metabolism ?,def
+410,HUM,Which U.S.A. president appeared on `` Laugh-In '' ?,ind
+411,ENTY,What are cigarettes made of ?,substance
+412,LOC,What is the capital of Zimbabwe ?,city
+413,ABBR,What does NASA stand for ?,exp
+414,ENTY,What is the state flower of Michigan ?,plant
+415,DESC,What are semiconductors ?,def
+416,DESC,What is nuclear power ?,def
+417,DESC,What is a tsunami ?,def
+418,HUM,Who is the congressman from state of Texas on the armed forces committee ?,ind
+419,HUM,Who was president in 1913 ?,ind
+420,NUM,When was the first kidney transplant ?,date
+421,LOC,What are Canada 's two territories ?,other
+422,ENTY,What was the name of the plane Lindbergh flew solo across the Atlantic ?,veh
+423,DESC,What is genocide ?,def
+424,LOC,What continent is Argentina on ?,other
+425,ENTY,What monastery was raided by Vikings in the late eighth century ?,other
+426,DESC,What is an earthquake ?,def
+427,LOC,Where is the tallest roller coaster located ?,other
+428,DESC,What are enzymes ?,def
+429,HUM,Who discovered oxygen ?,ind
+430,DESC,What is bangers and mash ?,def
+431,ENTY,What is the name given to the Tiger at Louisiana State University ?,animal
+432,LOC,Where are the British crown jewels kept ?,other
+433,HUM,Who was the first person to reach the North Pole ?,ind
+434,DESC,What is an ulcer ?,def
+435,DESC,What is vertigo ?,def
+436,DESC,What is the spirometer test ?,def
+437,NUM,When is the official first day of summer ?,date
+438,ABBR,What does the abbreviation SOS mean ?,exp
+439,ENTY,What is the smallest bird in Britain ?,animal
+440,HUM,Who invented Trivial Pursuit ?,ind
+441,ENTY,What gasses are in the troposphere ?,substance
+442,LOC,Which country has the most water pollution ?,country
+443,ENTY,What is the scientific name for elephant ?,animal
+444,HUM,Who is the actress known for her role in the movie `` Gypsy '' ?,ind
+445,ENTY,What breed of hunting dog did the Beverly Hillbillies own ?,animal
+446,LOC,What is the rainiest place on Earth ?,other
+447,HUM,Who was the first African American to win the Nobel Prize in literature ?,ind
+448,NUM,When is St. Patrick 's Day ?,date
+449,ENTY,What was FDR 's dog 's name ?,animal
+450,ENTY,What colors need to be mixed to get the color pink ?,color
+451,ENTY,What is the most popular sport in Japan ?,sport
+452,ENTY,What is the active ingredient in baking soda ?,food
+453,NUM,When was Thomas Jefferson born ?,date
+454,NUM,How cold should a refrigerator be ?,temp
+455,NUM,When was the telephone invented ?,date
+456,ENTY,What is the most common eye color ?,color
+457,LOC,Where was the first golf course in the United States ?,other
+458,DESC,What is schizophrenia ?,def
+459,DESC,What is angiotensin ?,def
+460,HUM,What did Jesse Jackson organize ?,gr
+461,ENTY,What is New York 's state bird ?,animal
+462,LOC,What is the National Park in Utah ?,other
+463,NUM,What is Susan B. Anthony 's birthday ?,date
+464,LOC,In which state would you find the Catskill Mountains ?,state
+465,ENTY,What do you call a word that is spelled the same backwards and forwards ?,termeq
+466,DESC,What are pediatricians ?,def
+467,HUM,"What chain store is headquartered in Bentonville , Arkansas ?",gr
+468,DESC,What are solar cells ?,def
+469,DESC,What is compounded interest ?,def
+470,DESC,What are capers ?,def
+471,DESC,What is an antigen ?,def
+472,ENTY,What currency does Luxembourg use ?,currency
+473,NUM,What is the population of Venezuela ?,other
+474,ENTY,What type of polymer is used for bulletproof vests ?,other
+475,ENTY,What currency does Argentina use ?,currency
+476,DESC,What is a thermometer ?,def
+477,LOC,What Canadian city has the largest population ?,city
+478,ENTY,What color are crickets ?,color
+479,LOC,Which country gave New York the Statue of Liberty ?,country
+480,ENTY,What was the name of the first U.S. satellite sent into space ?,product
+481,ENTY,What precious stone is a form of pure carbon ?,substance
+482,ENTY,What kind of gas is in a fluorescent bulb ?,substance
+483,DESC,What is rheumatoid arthritis ?,def
+484,LOC,"What river runs through Rowe , Italy ?",other
+485,DESC,What is cerebral palsy ?,def
+486,LOC,What city is also known as `` The Gateway to the West '' ?,city
+487,NUM,How far away is the moon ?,dist
+488,ENTY,What is the source of natural gas ?,other
+489,ENTY,In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?,veh
+490,DESC,What is pectin ?,def
+491,DESC,What is bio-diversity ?,def
+492,ENTY,What 's the easiest way to remove wallpaper ?,techmeth
+493,NUM,What year did the Titanic start on its journey ?,date
+494,NUM,How much of an apple is water ?,count
+495,HUM,Who was the 22nd President of the US ?,ind
+496,ENTY,What is the money they use in Zambia ?,currency
+497,NUM,How many feet in a mile ?,count
+498,ENTY,What is the birthstone of October ?,substance
+499,DESC,What is e-coli ?,def
