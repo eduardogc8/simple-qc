@@ -15,7 +15,7 @@
 13,HUM,¿Quien mato Gandhi?,ind
 14,ENTY,¿Que es considerado el desastre costliest que la industria de seguros ha afrontado alguna vez?,event
 15,LOC,Que extension U.S.¿declare alardea de la mayor parte de aeropuertos?,state
-16,DESC,HTTP Status 500: Internal Server Error.S.¿Trato de constitucion con?,desc
+16,DESC,¿Trato de constitucion con?,desc
 17,NUM,¿Cuantos Judios fueron ejecutados en campos de concentracion durante WWII?,count
 18,DESC,¿Cuales son Uñas de Nueve pulgadas?,def
 19,DESC,¿Cual es una bibliografia anotada?,def
@@ -240,7 +240,6 @@
 238,ENTY,¿Que 's el golpe nadador Olimpico mas lento?,techmeth
 239,HUM,¿Cual era el nombre del primer astronauta ruso para hacer un paseo espacial?,ind
 240,ENTY,¿Que enfermedad es transmitida por el mosquito Anopheles?,dismed
-241,ENTY,HTTP Status 500: Internal Server Error,food
 242,NUM,¿Cuantos paises sudamericanos tienen la carta Z de sus nombres?,count
 243,DESC,¿Cuales son los contenido de proposicion 98?,def
 244,LOC,¿Donde fue nacido George Washington?,other
@@ -434,8 +433,6 @@
 432,HUM,¿Quien es la Jarra Eriksen?,desc
 433,DESC,¿Que hace el nombre Billie medio?,def
 434,HUM,¿Quien es el nadador mas rapido en el mundo?,ind
-435,LOC,HTTP Status 500: Internal Server Error,mount
-436,LOC,HTTP Status 500: Internal Server Error.HTTP Status 500: Internal Server Error.?,other
 437,LOC,¿Que desierto ha sido llamado el Jardin de Ala?,other
 438,ENTY,¿Que hace los animales bicornate tienen dos de?,other
 439,DESC,¿Que funcion hace una comunidad 's torre de agua sirven?,reason
@@ -575,10 +572,8 @@
 573,ENTY,¿Que sujetador patento Whitcomb Judson en 1893?,other
 574,DESC,¿Que 's un auberge en Francia?,def
 575,HUM,¿Quien era la estrella del Muchacho de Oro del golpe de Broadway 1965?,ind
-576,LOC,HTTP Status 500: Internal Server Error.S.?,other
 577,HUM,¿Que ejercito fue fundado por Guillermo Booth y su esposa Catherine?,gr
 578,ENTY,¿Que hace ribavirin consisten en?,substance
-579,ENTY,Llame el refresco que es el n&250;mero uno en el sol.HTTP Status 500: Internal Server Error,food
 580,LOC,¿Cual es la direccion de web de la lista de direcciones de correo electronico de miembros de la Camara de Representantes?,other
 581,HUM,¿Cual era su verdadero nombre?,ind
 582,DESC,¿Por que son los oidos su centro del equilibrio?,reason
@@ -698,7 +693,6 @@
 696,ENTY,¿Que 2 estatuas dio Francia a otros paises?,cremat
 697,DESC,¿Cuales son anfibios?,def
 698,NUM,¿Cuantos gametos estan en una exclamacion media?,count
-699,ENTY,Llame la navaja de afeitar disponible que cuesta aproximadamente 19 centavos.HTTP Status 500: Internal Server Error,product
 700,NUM,¿A que distancia tiene que usted correr si usted golpea una carrera de casa?,dist
 701,HUM,Quien era &250;nico U.S.¿El presidente para llevar puesto un uniforme Nazi?,ind
 702,HUM,¿Woodrow Wilson sirvio como el presidente de que universidad?,gr
@@ -834,10 +828,8 @@
 832,ENTY,¿Cuales son algunas puntas para construir un fuego en una chimenea?,techmeth
 833,ENTY,¿Que comen los manaties?,food
 834,ENTY,¿Como dice usted 2 en el latin?,termeq
-835,ENTY,HTTP Status 500: Internal Server Error,cremat
 836,NUM,¿Cuanto vietnamita estaba alli en la Union Sovietica?,count
 837,ENTY,¿Cual es noviembre 's birthstone?,other
-838,DESC,HTTP Status 500: Internal Server Error,def
 839,NUM,"¿Por termino medio, cuantas millas estan alli a la luna?",count
 840,HUM,¿Quien creo al detective privado Philip Marlowe?,ind
 841,ENTY,"¿Que el libro de Boris Pasternak vendio 5, 0 copias para hacerse el exito de libreria de ficcion de 1958?",cremat
@@ -1107,7 +1099,6 @@
 1105,HUM,¿A quien encargo Jackie Kennedy para escribir la Muerte de un presidente?,ind
 1106,ENTY,¿Que medicina com&250;nmente es usada para tratar el SIDA?,dismed
 1107,NUM,¿Cuantas estrellas estan alli en la Union Sovietica 's la bandera?,count
-1108,DESC,HTTP Status 500: Internal Server Error,desc
 1109,HUM,¿Quien procuro crear la Gran Sociedad?,ind
 1110,LOC,¿Cuales son atracciones turisticas en Reims?,other
 1111,NUM,¿Cuales son las longitudes de collares de perla?,dist
@@ -1304,7 +1295,6 @@
 1302,ENTY,"¿Que revista nos da la crema, no desnatar?",cremat
 1303,ENTY,¿Que hace la tecnica llamada productos de fusion frios?,techmeth
 1304,HUM,¿Que diseñador de traje decidio que Michael Jackson solo deberia llevar puesto un guante?,ind
-1305,ENTY,"Que metro hizo el uso de Shakespeare por escrito: ser, o no ser, que es la pregunta.HTTP Status 500: Internal Server Error.?",other
 1306,NUM,¿Cuantos las filas de los agujeros de piñon hacen un rollo de la pelicula de 35 milimetros tienen?,count
 1307,NUM,¿Que la cabra es demografica del mundo?,count
 1308,HUM,¿Que compañia era el patrocinador original de la TV 's Superhombre?,gr
@@ -1349,15 +1339,6 @@
 1347,LOC,¿Cual es Bill Gross 's direccion de correo electronico?,other
 1348,DESC,¿Cual es el impacto economico del paro en la economia?,desc
 1349,ABBR,"Lo que hace las cartas D.C.aguanteapoye en Washington, D.C.?",exp
-1350,ENTY,HTTP Status 500: Internal Server Error,animal
-1351,HUM,HTTP Status 500: Internal Server Error,ind
-1352,NUM,HTTP Status 500: Internal Server Error.HTTP Status 500: Internal Server Error,other
-1353,NUM,HTTP Status 500: Internal Server Error,money
-1354,HUM,HTTP Status 500: Internal Server Error,ind
-1355,ENTY,HTTP Status 500: Internal Server Error,letter
-1356,ENTY,HTTP Status 500: Internal Server Error,termeq
-1357,NUM,HTTP Status 500: Internal Server Error,perc
-1358,LOC,HTTP Status 500: Internal Server Error.HTTP Status 500: Internal Server Error.HTTP Status 500: Internal Server Error,state
 1359,LOC,Llame una galeria de arte en Nueva York,other
 1360,HUM,¿Quien vende Viagra?,ind
 1361,ENTY,¿Que instrumento musical hizo el juego de Prewitt en James Jones 's de Aqui a la Eternidad?,instru
@@ -1385,7 +1366,6 @@
 1383,LOC,¿En que el continente es Bolivia?,other
 1384,DESC,¿Por que fue despojado Muhammad Ali de su titulo y prohibido poner en una caja en 1967?,reason
 1385,HUM,"¿Quien mato a mas personas, Hitler o Stalin?",ind
-1386,DESC,HTTP Status 500: Internal Server Error.A.¿oficina?,reason
 1387,ENTY,¿Que 's el &250;nico mamifero que puede 't el salto?,animal
 1388,LOC,Que U.S.¿el estado tiene a la mayor parte de rubios?,state
 1389,ENTY,¿Que guerra vio batallas en el Loro 's Pico y Virgen Negra?,event
@@ -1628,7 +1608,6 @@
 1626,ENTY,¿Cual es un miedo de color?,dismed
 1627,ENTY,¿Que naufragio Nantucket mato a mas buzos que lo exploran que las 52 personas con las que esto se hundio?,veh
 1628,ENTY,¿Cuales son las dos aves mas grandes en la tierra?,animal
-1629,ENTY,Llame las cuatro historias contenidas en Edith Wharton 's Vieja Nueva York.HTTP Status 500: Internal Server Error,cremat
 1630,LOC,¿Cual es el lago mas grande en Norteamerica?,other
 1631,NUM,¿Cuanta gente murio debido a un problema que fuma en 1997?,count
 1632,ENTY,¿De que el estreñimiento cronico es un sintoma?,dismed
@@ -1943,7 +1922,6 @@
 1941,ENTY,¿Que un miedo de ser es sucio?,dismed
 1942,ENTY,¿Que animal ocurre en Spielberg 's Mandibulas?,animal
 1943,DESC,¿Que 's el Planeta Rojo?,def
-1944,NUM,HTTP Status 500: Internal Server Error.A.¿para cuantos años?,count
 1945,HUM,¿Que 's el apellido mas com&250;n en America?,ind
 1946,NUM,¿Cuanto toma esto al americano tipico para comer 23 cuartos de galon del helado?,period
 1947,DESC,¿Cual es la diferencia entre una fruta y una verdura?,desc
@@ -2037,7 +2015,6 @@
 2035,DESC,"¿Cual es deadrise, nautico?",def
 2036,ENTY,¿Que 's el idioma oficial de Argelia?,lang
 2037,ENTY,¿Que tomo el primer premio en la revista Omni 's competicion para encontrar la pregunta sin respuesta &250;ltima?,other
-2038,ENTY,Lo que seis palabras siguen la linea: de un gato a un rey.HTTP Status 500: Internal Server Error.?,word
 2039,DESC,¿Como encuentro una ciudad si tengo el prefijo local?,manner
 2040,HUM,¿A que el autor de los Dias de Nuestro Libro de cocina de Vidas contrato en 198 como Liz Chandler en la TV 's Dias de Nuestras Vidas?,ind
 2041,ENTY,¿Que alimentos contienen la mayor parte de proteina?,food
@@ -2208,7 +2185,6 @@
 2206,LOC,¿Donde estan los Corrales de Union?,other
 2207,LOC,¿Donde forma el extraño del cuchillo de pescado de comida provienen de?,other
 2208,NUM,¿A cuantos niños tiene Ray Davies de las Vueltas?,count
-2209,NUM,HTTP Status 500: Internal Server Error,count
 2210,ENTY,¿Que quito Walter Huston para realizar en la pelicula el Tesoro de la Sierra Madre?,other
 2211,NUM,¿Cuanta sal esta en los oceanos?,count
 2212,HUM,¿Quien conduce la estrella a transportar la Empresa en el Viaje dificultoso de Estrella?,ind
@@ -2298,7 +2274,6 @@
 2296,DESC,¿Que 's la diferencia y ventajas de seleccionar un grabador de video VHS S&250;per sobre modelo de VHS claro?,desc
 2297,NUM,¿Que edad tiene Bernadette Peters?,period
 2298,LOC,¿Donde puedo encontrar revisiones de libro de Almas Turbulentas?,other
-2299,NUM,HTTP Status 500: Internal Server Error,date
 2300,ENTY,¿Cual es el nombre para nubes aquella lluvia de productos?,termeq
 2301,NUM,¿Cuando subio al poder Hitler en Alemania?,date
 2302,NUM,¿Cuando prosperaron el arte Gotica y la arquitectura?,date
@@ -2344,7 +2319,6 @@
 2342,NUM,¿Cual es el tamaño de Argentina?,volsize
 2343,ENTY,¿Que añadiria usted a la mezcla de arcilla para producir la porcelana fina?,substance
 2344,DESC,¿Cual es el leucemia?,def
-2345,ENTY,"Lo que la balada de Stephen Sondheim termina: Bien, tal vez el proximo año.HTTP Status 500: Internal Server Error.?",cremat
 2346,DESC,¿Como afecta la cola el vuelo de un milano?,manner
 2347,NUM,¿Que fecha es Richard Nixon 's cumpleaños?,date
 2348,ENTY,¿Que colmillo de pelicula es sepultado en el cementerio Pere-Lachaise en Paris?,animal
@@ -2432,7 +2406,6 @@
 2430,DESC,¿Cuales son matematicas de cambio?,def
 2431,DESC,¿Cual es la hipnoterapia?,def
 2432,ABBR,¿Cual es RCD?,exp
-2433,NUM,HTTP Status 500: Internal Server Error,other
 2434,ENTY,¿Que gatos persiguieron la Tarta Tweety en su primer aspecto de historieta?,animal
 2435,DESC,¿Que significa el biblico 'de piedras'?,def
 2436,HUM,¿De que organizacion el Consejo de Seguridad es una parte?,gr
@@ -2497,7 +2470,6 @@
 2495,HUM,"¿Quien era el capitan del petrolero, Exxon Valdez, implicado en el vertido de petroleo en el Principe Guillermo Sound, Alaska, 1989?",ind
 2496,LOC,Lo que es la ciudad snowiest en el U.S.?,city
 2497,DESC,¿Cual es crabgrass?,def
-2498,ENTY,"Lo que el libro abre: En un cierto pueblo en La Mancha, que no llamare.HTTP Status 500: Internal Server Error.?",cremat
 2499,HUM,¿Quien es Stephen Hawking?,desc
 2500,ABBR,¿Que PROTEGE realmente significan?,exp
 2501,ENTY,"¿Como dice usted, le amo en otras lenguas?",termeq
@@ -2739,7 +2711,6 @@
 2737,ENTY,"¿Que refresco no solo tiene su propio juego de video, pero fue presentado en su propio libro de comics de Maravilla?",food
 2738,ENTY,Que niños antiguos 'tarifa hicieron al escritor de Guia de TV Jeff Greenfield llaman uno de lo mas.¿programas de television subversivos en historia americana?,cremat
 2739,ENTY,¿La Virgen hace publicidad para que refresco?,food
-2740,ABBR,HTTP Status 500: Internal Server Error,exp
 2741,ENTY,¿Que termino de tenis es dicho venir de la palabra francesa para el huevo?,termeq
 2742,ENTY,¿Que hace a un minero el mio?,other
 2743,NUM,¿Cuanto dinero puede persona ser multada teniendo un perro en una playa?,money
@@ -2752,12 +2723,10 @@
 2750,ENTY,"¿Que novela de John Steinbeck retrata la familia Joad, expulsada de la Oklahoma dustbowl?",cremat
 2751,NUM,¿Que fecha hizo al hombre primera tierra en la luna?,date
 2752,LOC,¿Donde estan la oficina central de Eli Lilly?,other
-2753,NUM,HTTP Status 500: Internal Server Error,count
 2754,DESC,¿Que 's la &250;ltima linea de Dickens 's un Villancico?,desc
 2755,NUM,¿Cuantos arboles entran en la fabricacion de papel en un año?,count
 2756,LOC,¿Donde puedo encontrar la informacion en la investigacion hecha en gargolas a traves de la genetica?,other
 2757,DESC,¿Como es que las bombillas salen?,reason
-2758,DESC,HTTP Status 500: Internal Server Error.A.¿oficina?,reason
 2759,NUM,¿A que distancia es el universo?,dist
 2760,DESC,¿Cual es la diferencia entre una botella y un tarro?,desc
 2761,ENTY,¿Que enfermedad es el asesino segundo mas grande de Norteamericanos?,dismed
@@ -2838,7 +2807,6 @@
 2836,HUM,¿Que jugador de beisbol fue andado la mayor parte de veces?,ind
 2837,HUM,¿Que cantante macho famoso tiene el mismo nombre que el compositor de Hansel de opera y Gretel?,ind
 2838,ENTY,¿Cuales eran los primeros congelados?,food
-2839,DESC,HTTP Status 500: Internal Server Error,reason
 2840,ENTY,¿Cual es la palabra para el amor de dolor o abuso?,word
 2841,NUM,¿Cuando canonizaron ellos la Biblia?,date
 2842,HUM,¿A quien debia el &250;nico presidente servir dos terminos no consecutivos?,ind
@@ -3356,7 +3324,6 @@
 3354,NUM,¿Que 's el resultado de un juego de beisbol perdido?,other
 3355,LOC,¿De donde viene la tuberculosis?,other
 3356,HUM,¿Quien invento la segadora?,ind
-3357,LOC,HTTP Status 500: Internal Server Error,other
 3358,ENTY,¿Cual es el nombre de David Letterman 's perro?,animal
 3359,HUM,Que U.S.¿el senador una vez jugo al baloncesto para la Nueva York Knicks?,ind
 3360,ENTY,¿Cuales son los titulos de alg&250;n R-Rated Sony Playstation juegos?,sport
@@ -3366,17 +3333,9 @@
 3364,NUM,¿Cuantos las campanas de libertad han estado alli?,count
 3365,LOC,¿Que dos paises son separados por el Estrecho Bering?,country
 3366,DESC,¿Cual es Smartnet?,def
-3367,ENTY,HTTP Status 500: Internal Server Error,termeq
-3368,LOC,HTTP Status 500: Internal Server Error,country
-3369,DESC,HTTP Status 500: Internal Server Error,def
-3370,ENTY,HTTP Status 500: Internal Server Error.HTTP Status 500: Internal Server Error,product
-3371,HUM,HTTP Status 500: Internal Server Error,ind
-3372,NUM,HTTP Status 500: Internal Server Error,count
-3373,ENTY,HTTP Status 500: Internal Server Error,food
 3374,ENTY,¿De que animal vienen las alas de b&250;falo?,animal
 3375,DESC,¿Cual es el objetivo de la llave SysRq en mi teclado de ordenador?,reason
 3376,NUM,Cuando era Franklin D.¿Roosevelt golpeado con polio?,date
-3377,DESC,HTTP Status 500: Internal Server Error,manner
 3378,DESC,¿Como construye usted un coche solar para un experimento de escuela secundaria?,manner
 3379,LOC,¿Donde en el Internet puedo conseguir a importadores de productos quimicos?,other
 3380,LOC,¿Que debia el primer pais poner a una segunda mujer en el espacio?,country
@@ -3413,7 +3372,6 @@
 3411,DESC,¿Cual es el origen del nombre Igor?,desc
 3412,ENTY,¿Cual era primer Gilbert y opera Sullivan?,cremat
 3413,HUM,"¿Que han nombrado dos figuras historicas, quien lucho el uno contra el otro en una batalla famosa, cada uno una comida por ellos?",ind
-3414,LOC,HTTP Status 500: Internal Server Error,other
 3415,LOC,¿Que pais en 1998 tenia la mayor parte de suicidios sin tener en cuenta el tamaño demografico?,country
 3416,NUM,¿Cual es el precio para medicinasdrogas de tuberculosis?,money
 3417,NUM,¿Cual era el primer salario minimo?,money
@@ -3515,7 +3473,6 @@
 3513,LOC,¿Que pais hizo el Mau Mau Levantamiento ocurren en?,country
 3514,LOC,¿Cuales son algunos sitios medicos buenos para la informacion?,other
 3515,ENTY,¿Que roba un resurrectionist?,other
-3516,DESC,HTTP Status 500: Internal Server Error,reason
 3517,HUM,¿Cual es la mejor arte y escuela de diseño en el mundo?,gr
 3518,ENTY,¿Que dos verduras son combinadas en succotash?,food
 3519,HUM,¿Quien es el Casco Increible en realidad?,ind
@@ -3724,7 +3681,6 @@
 3722,HUM,¿A quien debia el primer astronauta ruso andar en el espacio?,ind
 3723,ENTY,¿Que vende el mejor el modelo de ordenador alguna vez?,product
 3724,ENTY,¿Cual es un miedo de comida?,dismed
-3725,HUM,HTTP Status 500: Internal Server Error,ind
 3726,NUM,¿Cual es la esperanza de vida de un elefante?,period
 3727,DESC,¿Cual es el corto - y los efectos a largo plazo de la bebida menor de edad?,desc
 3728,DESC,¿Que 's la reclamacion de fama de vigilante nocturno Frank Wills?,reason
@@ -3882,7 +3838,6 @@
 3880,NUM,¿Cuanto de largo era el proceso de OJ Simpson?,period
 3881,LOC,¿Que mentiras de pais directamente del sur de Detroit?,country
 3882,LOC,¿Donde hizo el surf provienen?,other
-3883,DESC,HTTP Status 500: Internal Server Error,reason
 3884,DESC,¿Como cortan las compañias el papel tan delgado?,manner
 3885,LOC,¿Cual es la montaña mas alta?,mount
 3886,DESC,¿Cual es el ordenador para el resto de nosotros?,desc
@@ -4016,7 +3971,6 @@
 4014,NUM,¿Cuantos cables apoyan la envergadura principal del Puente de Puerta de Oro?,count
 4015,NUM,¿Cuanto gasto el Manchester United para jugadores en 1993?,money
 4016,LOC,¿Cual era el lugar de nacimiento de Edgar Allen Poe?,other
-4017,DESC,HTTP Status 500: Internal Server Error,reason
 4018,ENTY,¿Que toma esto para hacerse un abogado?,other
 4019,HUM,¿Que sargento americano perdio ambos de sus manos en el combate durante la Segunda Guerra Mundial y luego continuo a actuar en una pelicula sola para la cual el gano dos Oscars?,ind
 4020,HUM,¿Quien invento la fuente?,ind
@@ -4032,7 +3986,6 @@
 4030,NUM,¿Cuantos años de la educacion despues highschool ello toma para hacerse un neurocirujano?,count
 4031,ENTY,¿Cuales son las cosechas de verduras superiores en el mundo?,food
 4032,LOC,¿Que volcan riega la ceniza en Sicilia?,other
-4033,LOC,Donde estan el U.S.HTTP Status 500: Internal Server Error,other
 4034,DESC,¿Por que pensaron primero los aztecas que los Españoles eran Dioses?,reason
 4035,DESC,¿Que son las reglas nevar el golf?,desc
 4036,ENTY,Lo que hace Warner Bros.¿llame un cuco flightless?,termeq
@@ -4237,7 +4190,6 @@
 4235,NUM,¿Cuantas lenguas habla el Papa?,count
 4236,LOC,¿Que bahia divide Maryland 's Orillas del Este y Occidentales?,other
 4237,HUM,"¿Cual es el verdadero nombre del cantante, Virgen?",ind
-4238,HUM,"¿Que frances reclamo el siguiente? Si Dios no existiera, seria necesario inventarle.HTTP Status 500: Internal Server Error",ind
 4239,ENTY,¿Que color eran Ernest Hemingway 's ojos?,color
 4240,DESC,¿Cual es el origen del taco de expresion?,desc
 4241,HUM,¿Quien era la primera mujer en el espacio?,ind
@@ -4368,7 +4320,6 @@
 4366,ENTY,¿Cual era John Steinbeck 's compañero de viaje Charley?,other
 4367,LOC,¿Cuales son las capitales de los dos paises grandes que ocupan la peninsula iberica en Europa?,city
 4368,NUM,¿Cuantas minas todavia pueden ser encontradas en las Islas Malvinas despues de la guerra terminada?,count
-4369,DESC,HTTP Status 500: Internal Server Error,manner
 4370,DESC,¿Como es 'qigong' correctamente pronunciado?,manner
 4371,NUM,¿Cuantos galones del agua revisan Caidas de Niagra cada segundo?,count
 4372,ENTY,¿Que gira el papel de tornasol azul rojo?,other
@@ -4460,7 +4411,6 @@
 4458,NUM,¿Cuanta posibilidad constituye un juego de beisbol oficial?,count
 4459,LOC,¿Que ciudad ha llamado un periodico el Distribuidor Claro?,city
 4460,LOC,Que U.S.¿declare alardea del Parque de Leif Ericson?,state
-4461,NUM,HTTP Status 500: Internal Server Error,count
 4462,HUM,¿Quien era el ingeniero principal de la Empresa Starship?,ind
 4463,DESC,¿Como esta relacionada la diafonia con el grosor InSb en detectores infrarrojos?,manner
 4464,HUM,¿Que el alcalde hizo tantas apariencias de TV le pidieron afiliarse a AFTRA en 1984?,ind
@@ -4936,7 +4886,6 @@
 4934,NUM,¿Cuanto hacen la tuberculosis combatting medicinas costaba?,money
 4935,HUM,¿El presidente Bush comparo a Saddam Hussein a quien?,ind
 4936,HUM,¿Que 's el nombre de Pittsburgo 's equipo de beisbol?,gr
-4937,ENTY,Lo que el juego de Shakespeare abre con la linea: Ahora es el invierno de nuestro descontento.HTTP Status 500: Internal Server Error.?,cremat
 4938,HUM,"¿Que comico de TV trabajo con Colmillo Blanco, Diente Negro y Pookie el Leon?",ind
 4939,HUM,¿Quien creo el caracter James Bond?,ind
 4940,ENTY,¿Que tipo de ejercicio quema la mayor parte de calorias?,sport
@@ -4985,7 +4934,6 @@
 4983,LOC,¿Que estados no tienen el impuesto sobre la renta estatal?,state
 4984,LOC,Que ciudad tiene las dos calles mas escarpadas en el U.S.?,city
 4985,DESC,¿Para que es conocida Margaret Thatcher?,reason
-4986,LOC,Llame el pais de gigantes doce veces el tamaño del hombre en Gulliver 's Viajes.HTTP Status 500: Internal Server Error,country
 4987,NUM,¿Que 's hombres 's par ante un agujero de golf de 455 yardas?,other
 4988,ENTY,¿Que cuatro elementos arreglan el 90 por ciento del cuerpo humano?,substance
 4989,NUM,¿Cuantos paises estan alli?,count
@@ -5146,7 +5094,6 @@
 5144,ENTY,¿De que averigua eidologist con el cara palido la existencia?,other
 5145,HUM,¿Quien modero el primer debate de TV Kennedy-Nixon?,ind
 5146,HUM,Quien retrato a George M.¿Cohan en 1942 's Dandi de Garabato de Yanqui?,ind
-5147,DESC,HTTP Status 500: Internal Server Error,reason
 5148,DESC,¿A que Philebus-gusta realmente medio?,def
 5149,NUM,¿Cuando era Nostradamus nacido?,date
 5150,ENTY,¿Cuales son los ingredientes de Coca-Cola?,substance
@@ -5384,7 +5331,6 @@
 5382,HUM,¿Que parte jugo Benjamin Franklin en el desarrollo del periodico en America?,ind
 5383,NUM,¿Cuando fue establecido Microsoft?,date
 5384,NUM,"¿Cuando hizo al presidente Kennedy, Lee Harvey Oswald, y Jack Ruby todos mueren?",date
-5385,LOC,Lo que es el U.S.HTTP Status 500: Internal Server Error,other
 5386,DESC,¿Cual es el platino?,def
 5387,LOC,¿Que estado es conocido como el Estado de Hawkeye?,state
 5388,HUM,¿Quien es el primer ministro de Australia?,ind
