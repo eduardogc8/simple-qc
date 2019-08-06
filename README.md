@@ -56,6 +56,6 @@ The directory ``datasets/`` contains the collections used in experiments:
 
 The file ``benchmark.ipynb`` contains the code to create the models, load the datasets, and run the experiments. Also, the file disposes of descriptions of the code and how to run it.
 
-The file `features_extract.ipynb` contains the code to extract features from question text using the syntactic toll Spacy (https://spacy.io/). Once it has already been executed, it not necessary to rerun it.
+The file `features_extract.ipynb` contains the code to extract features from question text using the Spacy syntactic tool (https://spacy.io/). Once it has already been executed, it not necessary to rerun it.
 
 The file `plots.ipynb` is used to view the results.
