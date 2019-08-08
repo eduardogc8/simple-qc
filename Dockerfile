@@ -1,7 +1,8 @@
-FROM ufoym/deepo:keras-py36-cu100
+FROM ufoym/deepo:all-py36-cu100
 
 RUN pip install -U --no-cache-dir \
         nltk==3.4.4 \
+        pytorch-transformers \
         numpy \
         pandas \
         scikit-learn==0.21.3 \
