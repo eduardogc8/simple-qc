@@ -1,5 +1,6 @@
 import datetime
 import time
+from pprint import pprint
 
 import numpy as np
 import pandas as pd
@@ -71,7 +72,7 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
                     'test_time': test_time}
             results = results.append([data])
             results.to_csv(save)
-    print('')
+    pprint(data)
     aux = time.time() - start_benchmark
     print('Run time benchmark:', aux)
     return pd.DataFrame(results)

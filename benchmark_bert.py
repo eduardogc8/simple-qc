@@ -1,3 +1,5 @@
+import sys
+sys.path.append('.')
 from sklearn.preprocessing import OneHotEncoder
 
 from benchmarking_methods import run_benchmark
@@ -5,28 +7,26 @@ from building_classifiers import lstm_default
 from feature_creation import create_feature
 from loading_data import load_uiuc
 import numpy as np
+from keras.preprocessing.sequence import pad_sequences
 
 if __name__ == '__main__':
     model = {'name': 'lstm', 'model': lstm_default}
 
     for language in ['en']:
-        print('\n\nLanguage: ', language)
-        # embedding = load_embedding(path_wordembedding + 'wiki.multi.' + language + '.vec')
         dataset_train, dataset_test = load_uiuc(language)
-        # debug
-        print('WARNING: use subset (first 1000 entries) of training data')
-        # dataset_train = dataset_train[:5500].copy()
+        dataset_train = dataset_train[:100].copy()
+        dataset_test = dataset_test[:100].copy()
 
         create_feature('bert', dataset_train, dataset_train)
         create_feature('bert', dataset_train, dataset_test)
 
-        X_train = np.array([x for x in X_train])
-        X_test = np.array([x for x in X_test])
-
-        # X_train = pad_sequences(X_train, maxlen=12, dtype='float', padding='post', truncating='post', value=0.0)
-        # X_test = pad_sequences(X_test, maxlen=12, dtype='float', padding='post', truncating='post', value=0.0)
+        X_train = np.array([list(x) for x in dataset_train['bert'].values])
+        X_test = np.array([list(x) for x in dataset_test['bert'].values])
+        X_train = pad_sequences(X_train, maxlen=12, dtype='float', padding='post', truncating='post', value=0.0)
+        X_test = pad_sequences(X_test, maxlen=12, dtype='float', padding='post', truncating='post', value=0.0)
         y_train = dataset_train['class'].values
         y_test = dataset_test['class'].values
+
         ohe = OneHotEncoder()
         y_train = ohe.fit_transform([[y_] for y_ in y_train]).toarray()
         y_test = ohe.transform([[y_] for y_ in y_test]).toarray()

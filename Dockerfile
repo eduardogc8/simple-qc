@@ -9,7 +9,6 @@ RUN pip install -U --no-cache-dir \
         tqdm
 
 RUN python -c "import nltk; nltk.download('punkt')"
-RUN python download_word_embeddings.py
 
 WORKDIR /docker-share
 ENV PYTHONPATH /docker-share

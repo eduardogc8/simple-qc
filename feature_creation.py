@@ -3,9 +3,9 @@ from collections import Counter
 
 import nltk
 import numpy as np
-from keras.preprocessing.sequence import pad_sequences
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from tqdm import tqdm
+
+from bert_embeddings import embedd_with_bert, load_bert_to_cache
 
 cache = {}
 
@@ -234,36 +234,8 @@ def create_feature(feature_type, df, df_2, embedding=None, max_features=5000):
         df_2['ner_hotencode'] = ret
 
     if feature_type == 'bert':
-        # requires: pip install pytorch-transformers
-        import torch
-
-        bert_model_name = 'bert-base-multilingual-cased'
-        # Load pretrained model/tokenizer
-        if 'bert_tokenizer' not in cache:
-            print('load bert_tokenizer...')
-            from pytorch_transformers import BertTokenizer
-            cache['bert_tokenizer'] = BertTokenizer.from_pretrained(bert_model_name)
-        if 'bert_model' not in cache:
-            print('load bert_model...')
-            from pytorch_transformers import BertModel
-            cache['bert_model'] = BertModel.from_pretrained(bert_model_name)
-
-        # Encode text
-        print('tokenize...')
-        input_ids = [cache['bert_tokenizer'].encode(s) for s in df_2['question']]
-        input_ids_padded = pad_sequences(input_ids, maxlen=12, dtype='int64', padding='post', truncating='post', value=0)
-        input_ids_tensor = torch.tensor(input_ids_padded)
-        print('embed with BERT...')
-        with torch.no_grad():
-            ret = []
-            batch_size = 32
-            for ind in tqdm(range(0, len(input_ids), batch_size)):
-                batch_input = input_ids_tensor[ind:ind+batch_size]
-                last_hidden_states = cache['bert_model'](batch_input)[0]  # Models outputs are now tuples
-                ret.append(last_hidden_states.numpy())
-            ret = np.concatenate(ret, axis=0)
-            print(f'shape of encoded input: {ret.shape}')
-            df_2['bert'] = [enc for enc in ret]
+        load_bert_to_cache(cache)
+        embedd_with_bert(df_2,cache['bert_tokenizer'],cache['bert_model'])
 
 
 class MeanEmbeddingVectorizer(object):
