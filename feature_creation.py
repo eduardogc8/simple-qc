@@ -5,7 +5,7 @@ import nltk
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
-from bert_embeddings import embedd_with_bert, load_bert_to_cache
+from bert_embeddings import embedd_with_bert_using_df, load_bert_to_cache
 
 cache = {}
 
@@ -235,7 +235,7 @@ def create_feature(feature_type, df, df_2, embedding=None, max_features=5000):
 
     if feature_type == 'bert':
         load_bert_to_cache(cache)
-        embedd_with_bert(df_2,cache['bert_tokenizer'],cache['bert_model'])
+        embedd_with_bert_using_df(df_2, cache['bert_tokenizer'], cache['bert_model'])
 
 
 class MeanEmbeddingVectorizer(object):
