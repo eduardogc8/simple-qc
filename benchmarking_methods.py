@@ -22,6 +22,7 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
             print('.', end='')
             x_train = X[:size_train]
             y_train = y[:size_train]
+            pred_train = None
 
             if 'lstm' in model['name'] or 'mlp' in model['name']:
                 m = model['model'](in_dim=in_dim, out_dim=len(onehot.categories_[0]))
@@ -53,10 +54,16 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
                 m.fit(x_train, y_train)
                 train_time = time.time() - start_time
 
-                start_time = time.time()
-                result = m.predict(x_test)
-                test_time = time.time() - start_time
-                y_test_ = y_test
+
+                def pred_target_transform_fun(x,target):
+                    start_time = time.time()
+                    prediction = m.predict(x)
+                    duration = time.time() - start_time
+                    return prediction,target,duration
+
+                result,y_test_,test_time = pred_target_transform_fun(x_test,y_test)
+                pred_train,y_train_,_ = pred_target_transform_fun(x_train,y_train)
+
 
             data = {'datetime': datetime.datetime.now(),
                     'model': model['name'],
@@ -70,9 +77,11 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
                     'train_size': size_train,
                     'execution_time': train_time,
                     'test_time': test_time}
+            if pred_train is not None:
+                data['f1_train']= f1_score(pred_train, y_train_, average=metric_average)
+            pprint(data)
             results = results.append([data])
             results.to_csv(save)
-    pprint(data)
     aux = time.time() - start_benchmark
     print('Run time benchmark:', aux)
     return pd.DataFrame(results)
