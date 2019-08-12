@@ -1,6 +1,7 @@
 import sys
 sys.path.append('.')
 
+from flair_cnn_doc_embedding import DocumentCNNEmbeddings
 from torch.utils.data import Dataset
 
 import time
@@ -52,7 +53,7 @@ if __name__ == '__main__':
         BertEmbeddings('bert-base-multilingual-cased',layers='-1')
     ]
 
-    document_embeddings = DocumentRNNEmbeddings(word_embeddings,
+    document_embeddings = DocumentCNNEmbeddings(word_embeddings,
                                                 dropout=0.0,
                                                 hidden_size=64,
                                                 )
@@ -72,7 +73,13 @@ if __name__ == '__main__':
     pprint('test-macro-f1: %0.2f'%calc_metrics_with_sklearn(clf,sentences_test)['macro avg']['f1-score'])
 
 '''
+DocumentRNNEmbeddings (GRU inside):
 trained for 9 epochs (~15min)
 'train-macro-f1: 0.95'
 'test-macro-f1: 0.92' 
+
+DocumentCNNEmbeddings: 
+trained for 4 epochs (~7min)
+'train-macro-f1: 0.95'
+'test-macro-f1: 0.94'
 '''
