@@ -10,7 +10,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 
 def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='default.csv',
                   metric_average="macro", onehot=None, out_dim=6, epochs=10, batch_size=30,
-                  vocabulary_size=5000, in_dim=300):
+                  vocabulary_size=5000, in_dim=300, classes=['ABBR', 'DESC', 'ENTY', 'HUM', 'LOC', 'NUM']):
     start_benchmark = time.time()
     results = pd.DataFrame()
 
@@ -72,14 +72,13 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
                     'recall': recall_score(result, y_test_, average=metric_average),
                     'f1': f1_score(result, y_test_, average=metric_average),
                     'mcc': matthews_corrcoef(result, y_test_),
-                    'confusion': confusion_matrix(result, y_test_),
+                    'confusion': confusion_matrix(result, y_test_, labels=classes),
                     'run': run + 1,
                     'train_size': size_train,
                     'execution_time': train_time,
                     'test_time': test_time}
             if pred_train is not None:
                 data['f1_train']= f1_score(pred_train, y_train_, average=metric_average)
-            pprint(data)
             results = results.append([data])
             results.to_csv(save)
     aux = time.time() - start_benchmark
@@ -88,7 +87,8 @@ def run_benchmark(model, X, y, x_test, y_test, sizes_train, runs=30, save='defau
 
 
 def run_benchmark_cv(model, X, y, sizes_train, folds=10, save='default.csv', metric_average="macro",
-                  onehot=None, epochs=10, batch_size=30, vocabulary_size=5000):
+                     onehot=None, epochs=10, batch_size=30, vocabulary_size=5000,
+                     classes=['ABBR', 'DESC', 'ENTY', 'HUM', 'LOC', 'NUM']):
     start_benchmark = time.time()
     results = pd.DataFrame()
     for size_train in sizes_train:
@@ -145,7 +145,7 @@ def run_benchmark_cv(model, X, y, sizes_train, folds=10, save='default.csv', met
                     'recall': recall_score(result, y_test, average=metric_average),
                     'f1': f1_score(result, y_test, average=metric_average),
                     'mcc': matthews_corrcoef(result, y_test),
-                    'confusion': confusion_matrix(result, y_test),
+                    'confusion': confusion_matrix(result, y_test, labels=classes),
                     'train_size': size_train,
                     'fold': fold,
                     'execution_time': train_time,
