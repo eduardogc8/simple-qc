@@ -11,7 +11,7 @@ Supervised models have been achieving significant results in this task, however,
 
 This project proposes an empirical comparison between Question Classification methods, examining the level of dependence of language resources. 
 
-We propose a manual classification of the current state of art methods in four distinct categories:
+We propose a manual classification of the current state-of-the-art methods in four distinct categories:
 * **Low:** The method uses features independent of an external resource, or it can be trained with the own training data — for example, Bag-of-words, TF-IDF and word embedding (trained with the own training data).
 * **Medium:** The method uses an unsupervised approach and needs a set of a corpus to train a model — for example, word embedding (trained with externals corpus).
 * **High:** The method needs labeled data to train a model, or it uses a knowledge base — for example, a syntactic parser and WordNet.
